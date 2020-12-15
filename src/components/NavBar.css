@@ -1,0 +1,16 @@
+#collasible-nav-dropdown,
+a.dropdown-item {
+  text-transform: capitalize;
+}
+
+#searchInp {
+  width: 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  animation-direction: reverse;
+}
+
+/* When the input field gets focus, change its width to 100% */
+#searchInp:focus {
+  width: 1000%;
+}
